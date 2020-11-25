@@ -1,0 +1,6 @@
+RewriteEngine On
+
+Options -Indexes
+
+ErrorDocument 404 /errors/not_found.php
+ErrorDocument 403 /errors/forbidden.php
